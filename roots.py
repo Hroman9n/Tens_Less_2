@@ -27,7 +27,7 @@ def a0(abc):    # если а=0 (3х+15=0)
 
     print("корень уравнения x =", res)
 
-def b0(abc):    #
+def b0(abc):    
     a = abc[0]
     c = abc[2]
 
