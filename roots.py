@@ -67,12 +67,14 @@ abc= list() # пустой список, в который позже запиш
 
 mthd = input("are you gonna write coefficients in line (enter line) or separately (enter sep): ")
 
+
 if mthd == "line":
     abc=line_input()
 elif mthd == "sep":
     abc=sep_input()
 else:
-    print("please, write line or sep: ")
+    print("seems like you wrote not line nor sep")
+    exit() 
 
 #print(abc) # проверка работоспособности функций
 
